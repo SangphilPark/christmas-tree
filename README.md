@@ -14,7 +14,7 @@
 ## The command to install package:
 
 ```bash
-conda create -n christmas -y
+conda create -n christmas python=3.9.6 -y
 conda activate christmas
 
 pip install -r requirements.txt
